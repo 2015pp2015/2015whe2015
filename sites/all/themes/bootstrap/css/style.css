@@ -6,8 +6,46 @@ body {
 	text-align: justify;
 }
 
-
-
 ul.footer_links_main-menu li {
 	padding-right: 10px;
+}
+
+.action-box {
+	height: 100px;
+	background-color: #ccc;
+}
+
+.home-box {
+  margin-top: 20px;
+  margin-bottom: 20px;  
+}
+
+.home-box-image {
+  text-align: center;	
+}
+
+.home-box-title {
+  text-align: center;
+}
+
+.home-box-body {
+  text-align: center;
+}
+
+.home-showroom {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.home-showroom-image {
+  text-align: center;	
+}
+
+.home-showroom-title {
+  text-align: center;
+}
+
+.home-showroom-body {
 }
