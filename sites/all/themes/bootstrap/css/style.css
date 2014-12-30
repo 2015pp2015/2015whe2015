@@ -1,6 +1,23 @@
+
+/* Body */
+
 body {
 	font-size: 18px;
 }
+
+
+/* Navbar */
+
+.navbar {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+
+/* Footer */
 
 #footer-sitemap  {
 	text-align: justify;
@@ -10,13 +27,45 @@ ul.footer_links_main-menu li {
 	padding-right: 10px;
 }
 
+
+
+/* Home Page */
+
 .action-box {
-	height: 100px;
-	background-color: #ccc;
+	height: 50px;
+	background-color: #222;
+	margin-bottom: 10px;
 }
 
+.action-box-title {
+	font-size: 20px;
+	color: #fff;
+	padding-top: 10px;
+}
+
+.action-button.btn-lg {
+	border-radius: 6px;
+	font-size: 18px;
+	line-height: 1.33;
+	padding: 4px 10px;
+	margin-top: 8px;
+}
+
+.action-button.btn-warning {
+	background-color: #fff;
+	border-color: #fff;
+	color: #222;
+}
+
+.action-button.btn-warning:hover {
+	background-color: #222;
+	border-color: #fff;
+	color: #fff;
+}
+
+
 .home-box {
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 20px;  
 }
 
@@ -25,11 +74,21 @@ ul.footer_links_main-menu li {
 }
 
 .home-box-title {
+  margin-top: 5px;
   text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .home-box-body {
   text-align: center;
+}
+
+.showroom-title {
+    font-size: 20px;
+    font-weight: bold;
+	position: relative;
+	top: 10px;
 }
 
 .home-showroom {
@@ -44,8 +103,11 @@ ul.footer_links_main-menu li {
 }
 
 .home-showroom-title {
-  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 5px 0 5px;
 }
 
 .home-showroom-body {
+  padding: 0 5px;
 }
