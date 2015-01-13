@@ -85,7 +85,13 @@
 	  
 
       <?php if (!empty($site_name)): ?>
-      <a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+      <a class="name navbar-brand" style="position: relative; bottom: 2px;" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+		  
+		  <span class="glyphicon glyphicon-fire" style="position: relative; top: 2px;" aria-hidden="true"></span>&nbsp; 
+		  
+		  <?php print $site_name; ?>
+	  
+	  </a>
       <?php endif; ?>
 
       <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
@@ -119,6 +125,7 @@
 
 <div class="main-container container">
 
+	
   <header role="banner" id="page-header">
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
@@ -141,11 +148,7 @@
       <?php endif; ?>
       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
       <a id="main-content"></a>
-      <?php print render($title_prefix); ?>
-      <?php if (!empty($title)): ?>
-        <h1 class="page-header"><?php print $title; ?></h1>
-      <?php endif; ?>
-      <?php print render($title_suffix); ?>
+
       <?php print $messages; ?>
       <?php if (!empty($tabs)): ?>
         <?php print render($tabs); ?>
@@ -160,13 +163,14 @@
     </section>
 
     <?php if (!empty($page['sidebar_second'])): ?>
-      <aside class="col-sm-3" role="complementary">
+      <aside class="col-sm-3 hidden-xs hidden-sm" role="complementary">
         <?php print render($page['sidebar_second']); ?>
       </aside>  <!-- /#sidebar-second -->
     <?php endif; ?>
 
   </div>
+  <footer class="footer container">
+    <?php print render($page['footer']); ?>
+  </footer>
 </div>
-<footer class="footer container">
-  <?php print render($page['footer']); ?>
-</footer>
+

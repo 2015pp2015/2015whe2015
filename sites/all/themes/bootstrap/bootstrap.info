@@ -99,6 +99,7 @@ settings[toggle_search] = 1
 ; exclude[js][] = 'modules/contextual/contextual.js'
 
 scripts[] = js/respond.min.js
+scripts[] = js/jquery-effects.js
 
 ; CSS
 ; --------------
