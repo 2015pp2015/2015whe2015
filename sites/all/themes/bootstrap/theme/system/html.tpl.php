@@ -57,6 +57,92 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
+
+<?php if(!drupal_is_front_page()) : ?>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery1").click(function(){
+    $("#totoggle1").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery2").click(function(){
+    $("#totoggle2").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery3").click(function(){
+    $("#totoggle3").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery4").click(function(){
+    $("#totoggle4").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery5").click(function(){
+    $("#totoggle5").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery6").click(function(){
+    $("#totoggle6").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery7").click(function(){
+    $("#totoggle7").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery8").click(function(){
+    $("#totoggle8").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery9").click(function(){
+    $("#totoggle9").toggle( "slow" );
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  $("#buttonjquery10").click(function(){
+    $("#totoggle10").toggle( "slow" );
+  });
+});
+</script>
+
+<?php endif; ?>
+
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <div id="skip-link">
